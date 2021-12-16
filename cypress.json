@@ -1,0 +1,7 @@
+{
+  "chromeWebSecurity": false,
+  "viewportWidth": 1080,
+  "viewportHeight": 720,
+  "baseUrl": "https://www.hepsiburada.com/",
+  "failOnStatusCode": false
+}

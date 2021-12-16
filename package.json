@@ -1,0 +1,29 @@
+{
+  "name": "hepsiburada",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BinnazYagciElersu/hepsiburada-test-case.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BinnazYagciElersu/hepsiburada-test-case/issues"
+  },
+  "homepage": "https://github.com/BinnazYagciElersu/hepsiburada-test-case#readme",
+  "devDependencies": {
+    "cypress": "^9.1.1",
+    "cypress-cucumber-preprocessor": "^4.3.0"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.6.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/integration/Features/StepDefinitions/**/"
+  }
+}
